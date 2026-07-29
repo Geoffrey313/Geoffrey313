@@ -107,11 +107,11 @@ Platform for a Sharia-compliant investment, advisory and research firm (portfoli
 Regulated drought-subsidence building-damage claims, computer vision plus vision-LLM.
 
 - **Problem:** experts manually inspect large seasonal volumes of field photographs (~150k per season) and hand-fill a standardised damage schedule, which is slow and subjective.
-- **Solution:** a CV + vision-LLM pipeline (text-prompted SAM3 segmentation, then a vision LLM grounded on reference cases and the regulated methodology) drafts the standardised assessment, returned for expert validation; the AI-draft versus expert-final archive feeds continuous model improvement.
+- **Solution:** a CV + vision-LLM pipeline: text-prompted SAM3 segmentation (distilled into a fine-tuned YOLO detector for efficient inference), then a vision LLM grounded on reference cases and the regulated methodology drafts the standardised assessment, returned for expert validation; the AI-draft versus expert-final archive feeds continuous model improvement.
 - **Architecture:** an asynchronous FastAPI machine-to-machine service (job lifecycle, callback with retry) with an operator SPA dashboard (FR / EN i18n); a single Docker image deploys to Azure (Key Vault, Blob Storage, Container Apps on a T4 GPU), with a local-parity mode (Vault, MinIO, MLflow) for development.
 - **Contribution:** built the end-to-end backend, the integration API, a versioned output-assembly engine, the operator dashboard, and full Azure deployment automation.
 
-`Python · SAM3 · PyTorch · Azure OpenAI · FastAPI · MLflow · Vault · MinIO · Azure Container Apps`
+`Python · SAM3 · YOLO · PyTorch · Azure OpenAI · Azure ML Studio · FastAPI · MLflow · Vault · MinIO · Azure Container Apps`
 
 <br/>
 
