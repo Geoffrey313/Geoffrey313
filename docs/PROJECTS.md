@@ -59,14 +59,15 @@ Decision-support platform for discretionary equity portfolio managers moving off
 
 #### Treasury middle-office automation &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
-On-premise RAG assistant for a bank's treasury / middle-office risk function.
+On-premise AI risk-intelligence layer for a bank's treasury middle office (market-risk and limit monitoring).
 
-- **Problem:** portfolio-risk surveys and reporting to the risk department were manual and slow, under strict data-privacy constraints.
-- **Solution:** a multi-layered RAG assistant automating portfolio-risk surveys and report generation on real-time data, with fully on-premise LLM serving and no data egress.
-- **Architecture:** API integration into the bank's existing systems; all inference and retrieval run on-premise to keep data privacy intact.
-- **Contribution:** built the on-premise RAG pipeline and end-to-end reporting automation for the middle office.
+- **Problem:** the daily risk pipeline ran manually on fragile, disconnected tooling, prices arriving as emailed spreadsheets, reconciliation on brittle Excel formulas, swap valuations (MTM, VaR, CVaR) hand-exported with no audit trail, and limit structures in a single unversioned desktop database. Analysts lost hours a day, and tracing why VaR moved meant following files by hand.
+- **Solution:** an on-premise RAG assistant plus automated reporting. A scheduled end-of-day pipeline ingests positions, prices and valuations, runs deterministic reconciliation and a data-quality gate, and loads a four-store knowledge layer. A retrieval orchestrator classifies each natural-language question and routes it across the four stores; a hybrid LLM router keeps any query touching sensitive identifiers (ISINs, positions, counterparties) on on-premise open-source models and sends only anonymised, non-sensitive reasoning to a private cloud endpoint, logging every routing decision. A React dashboard replaces the Excel workflow with a market-risk and limit view, an evidence-cited Q&A chat, a live news / market-events feed, and human-in-the-loop report drafting that auto-distributes approved reports to the risk department.
+- **Integrations:** market data from **Bloomberg** (illiquid-bond pricing, interest-rate-swap MTM / VaR / CVaR, streaming prices) and **Refinitiv / LSEG** (FX and equities), with lightweight REST backups; the treasury front-to-back trading system and the existing BI data-warehouse (kept as system of record) over REST APIs; news and macro feeds (Bloomberg, Reuters, central-bank RSS and open sources) fed to an event classifier that links news to affected instruments; report distribution over Microsoft Teams and email, with PDF / Excel export.
+- **Architecture:** five layers, data sources → ingestion / ETL (a scheduled EOD DAG: reconcile-by-ISIN, data-quality validation, warehouse write-back, news embedding) → a four-store knowledge layer (a **knowledge graph** for desk → limit → instrument → counterparty attribution, a **vector DB** for news, policy docs and per-analyst memory, a **relational warehouse** for numeric risk data, and a **time-series store** for price / VaR history) → a RAG orchestrator with three-tier model routing → a FastAPI backend (REST + WebSocket) and React SPA. On-premise GPU inference serves the open-source models; Docker Compose / Swarm deployment with a deterministic PII pre-filter and a full audit log.
+- **Contribution:** designed the end-to-end architecture: the four-store retrieval design, the sensitivity-classification and tiered on-prem / cloud routing for compliance, the market-data and news integrations, the automated EOD pipeline, and the phased roadmap.
 
-`Python · on-prem LLMs · RAG · FastAPI · API integration`
+`Python · FastAPI · LangChain · Ollama · ChromaDB · FalkorDB · TimescaleDB · PostgreSQL · Prefect · Bloomberg / Refinitiv · React · Docker`
 
 <br/>
 
