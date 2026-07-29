@@ -8,34 +8,26 @@
 
 # Engineering
 
-Leading a team of five researchers and engineers at Dimtech, building production systems for
-financial institutions across trading, treasury, insurance and Islamic finance.
+I work end-to-end as a **Lead R&D & AI Architect** — from research and algorithm design to the
+systems that run them in production. Delivered work for **hedge funds, investment banks,
+insurance companies and fintech firms**.
 
-## Production ML & AI
+## What I cover
 
-Market-making calibration and execution, retrieval-augmented LLM assistants, and
-computer-vision pipelines running under real latency and data-privacy budgets.
+- **AI research & modelling** — algorithm design, model training, evaluation and calibration.
+- **System & infrastructure design** — architecture across cloud and on-premise deployments.
+- **Automation & orchestration** — pipelines, scheduling and workflow automation.
+- **Production & MLOps** — serving, monitoring, experiment tracking and the full model lifecycle.
+
+## Typical stack
 
 | Area | Stack |
 |---|---|
 | Modelling | PyTorch · TensorFlow · Optuna · scikit-learn |
 | Serving | FastAPI · Redis · PostgreSQL · Kafka · WebSocket |
-| Orchestration | MLflow · Airflow · n8n · MCP · CrewAI |
-| Delivery | Docker · AWS · Azure · GitLab CI |
+| Orchestration | MLflow · Airflow · n8n |
+| Delivery | Docker · AWS · Azure · GitLab CI · on-prem |
+| Ops & observability | Grafana · Loki · Prometheus · Portainer |
+| Network & security | Nginx · Cloudflare · Tailscale · Vault · Authentik |
 
-## Selected builds
-
-- **End-to-End Market Making** — self-hosted high-availability quoting suite (Docker Swarm,
-  Pacemaker, Redis Sentinel) for The Group Securities on the Qatar Stock Exchange.
-- **Doha Bank treasury RAG** — on-premise LLM pipeline for the treasury middle office with 100%
-  data privacy.
-- **prospectAI** — computer-vision + LLM drought/incident assessment for the Eurexo-CED Group
-  (YOLO and SAM3 distillation).
-- **ShariahSentinel / GhostAlpha / beholy / ouihost** — SaaS platforms across Islamic-finance
-  screening, portfolio replication, source-grounded RAG research and rental management.
-
-## Self-hosted infrastructure
-
-Nginx and Cloudflare at the edge, PostgreSQL, Redis, Kafka, n8n, Ansible provisioning,
-Grafana/Loki/Prometheus monitoring and Portainer-managed containers behind a Tailscale mesh,
-with Vault/Authentik/Passbolt for secrets and access.
+Cloud and on-premise, with a bias toward reproducible, self-hostable infrastructure.

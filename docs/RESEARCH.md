@@ -8,28 +8,32 @@
 
 # Research
 
-PhD in statistical finance (Montpellier University, ANRT/CIFRE grant), postdoctoral fellow and
-now research affiliate at Tsinghua University.
+My research sits at the intersection of **complex systems** and **financial markets**, with a
+parallel line in applied machine learning. PhD in quantitative finance.
 
 ## Market microstructure
 
-Microprice estimation, optimal quoting under the Guéant–Lehalle–Fernandez-Tapia framework, and
-limit-order-book dynamics on emerging-market venues. Realized-volatility estimation under
-microstructure noise, point-process models for order-flow dynamics, and price-impact estimation.
-Current work develops multiplex graph neural networks to model cross-market contagion.
+Microprice estimation and heavy-tailed price diffusion in limit-order books, optimal execution,
+order-book imbalance and fragility measures, and information flow around announcements.
 
-## Empirical asset pricing & corporate finance
+## Empirical asset pricing
 
-Quasi-natural experiments and event-study designs with heterogeneous treatment — short-selling
-disclosure regulation, corporate-governance codes, and energy/health policy shocks in developed
-economies. Bayesian inference and econophysics approaches to share-price dynamics.
+Cross-sectional and time-series asset pricing — asset growth and financing channels across
+markets, and the drivers of expected returns.
 
-- Short-selling disclosure and the lending market — *published, 2024.*
-- Bayesian inference for share-price dynamics — *published, 2023.*
+## Macro-finance & portfolio allocation
 
-## Islamic finance
+Safe-haven demand and monetary trust, volatility regimes in foreign-exchange and sovereign-bond
+markets, and complex-systems / macro-financial approaches to asset allocation and portfolio
+optimisation.
 
-Automated Sharia screening and anomaly detection at scale across GCC, Malaysian and Indonesian
-markets (ShariahSentinel), plus sukuk tokenisation architecture (SukukBlockchain).
+## Structural & causal research
 
-See [Papers](./PAPERS.md) for the full publication list.
+Quasi-natural experiments and event-study designs on policy and market shocks.
+
+## Applied machine learning
+
+Computer vision, graph neural networks, and anomaly / fraud detection — including forensic
+detection of accounting anomalies.
+
+See [Papers](./PAPERS.md) for the current working papers and publications.

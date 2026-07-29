@@ -1,7 +1,7 @@
 <!--
   ═══════════════════════════════════════════════════════════════════
-  PROFILE README — merged edition
-  Repo must be named exactly like your GitHub handle (Geoffrey313), and be public.
+  PROFILE README — Geoffrey313/Geoffrey313 (public)
+  Generic profile: no employer / institution names.
   ═══════════════════════════════════════════════════════════════════
 -->
 
@@ -11,58 +11,37 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Head+of+R%26D+%40+Dimtech+%C2%B7+Paris+%2F+Tianjin;Market+microstructure+%26+optimal+execution;Empirical+asset+pricing+%C2%B7+event-study+designs;Islamic+finance+%C2%B7+Sharia+screening+at+scale" alt="" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=820&lines=Quant+research%3A+complex+systems+%26+financial+markets;Microstructure+%C2%B7+empirical+asset+pricing+%C2%B7+macro-finance;Portfolio+allocation+%C2%B7+structural+%26+causal+research;Applied+ML+%C2%B7+computer+vision+%C2%B7+GNNs+%C2%B7+anomaly+detection" alt="" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://111dimtech.com"><img src="https://img.shields.io/badge/Website-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF" alt="Website" /></a>
   <a href="https://orcid.org/0000-0002-2794-4453"><img src="https://img.shields.io/badge/ORCID-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID" /></a>
   <a href="https://www.linkedin.com/in/geoffreyducournau"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="mailto:geoffrey.ducournau@111dimtech.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=maildotru&logoColor=EA4335" alt="Email" /></a>
+  <a href="mailto:G.ducournau.voisin@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 ## About
 
-I hold a PhD in statistical finance (Montpellier University) and completed a postdoctoral
-fellowship at **Tsinghua University**, where I remain a research affiliate. My work sits at the
-intersection of market microstructure, empirical asset pricing and applied machine learning:
-optimal quoting on emerging-market order books, quasi-experimental designs for corporate-finance
-and policy questions, and automated Sharia-compliance screening at scale.
+Quantitative researcher and AI architect (PhD in quantitative finance). My research sits at the
+intersection of **complex systems** and **financial markets** — market microstructure and optimal
+execution, empirical asset pricing, macro-finance, portfolio allocation, and structural / causal
+work across markets. In parallel I pursue applied machine-learning research: **computer vision**,
+**graph neural networks**, and **anomaly / fraud detection**.
 
-At **Dimtech Ltd** I lead a team of five researchers building data-driven AI systems for financial
-institutions — a retrieval-augmented LLM pipeline for Doha Bank's treasury middle office, an
-end-to-end market-making stack for The Group Securities on the Qatar Stock Exchange, and
-computer-vision claims assessment for the Eurexo-CED Group. I work between French, English and
-Chinese research and engineering contexts.
+On the engineering side I work end-to-end as a **Lead R&D & AI Architect**: AI research,
+algorithmic modelling, system and infrastructure design, automation, and production deployment
+across cloud and on-premise — including the full MLOps lifecycle. I have delivered systems for
+**hedge funds, investment banks, insurance companies and fintech firms**.
 
-```python
-class Geoffrey:
-    role     = "Head of R&D @ Dimtech Ltd"
-    based_in = "Tianjin & Paris"
-
-    research = {
-        "microstructure":  ["microprice", "GLFT market making", "LOB dynamics"],
-        "asset_pricing":   ["event studies", "difference-in-differences", "Bayesian inference"],
-        "islamic_finance": ["Sharia screening", "sukuk tokenisation"],
-    }
-
-    stack = {
-        "modelling": ["PyTorch", "TensorFlow", "Optuna", "MLflow", "Airflow"],
-        "serving":   ["FastAPI", "PostgreSQL", "Redis", "Kafka", "WebSocket"],
-        "infra":     ["Docker", "AWS", "Azure", "GitLab CI", "Tailscale", "Grafana"],
-    }
-
-    currently = "multiplex graph neural networks for cross-market contagion"
-```
-
-- 🔬 Modelling cross-market contagion with multiplex graph neural networks (Tsinghua affiliation).
-- 🏦 Leading R&D at Dimtech across market making, treasury RAG assistants and CV claims automation.
-- 🌏 Based between Tianjin and Paris.
-- 🤝 Open to research collaboration on microstructure and empirical asset pricing.
-- ✉️ Reach me at <geoffrey.ducournau@111dimtech.com>
+- 🔬 Research across complex systems, market microstructure, empirical asset pricing and macro-finance.
+- 🧠 Applied ML: computer vision, graph neural networks, anomaly & fraud detection.
+- 🛠️ End-to-end delivery: modelling → system design → automation → production (cloud & on-prem), with MLOps.
+- 🌏 Based between Paris and Tianjin.
+- 🤝 Open to research collaboration on microstructure and empirical asset pricing — and on complex-systems and macro-financial approaches to asset allocation and portfolio optimisation.
+- ✉️ Reach me via LinkedIn or email.
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
@@ -114,38 +93,70 @@ class Geoffrey:
 
 ## Selected work
 
+Current working papers (2026):
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[Short-selling disclosure & the lending market](https://www.davidpublisher.com/index.php/Home/Article/index?id=51093.html)**
-How disclosure constraints reshape securities lending and stock ownership.
-`Journal of Modern Accounting and Auditing · 2024`
+**Bonds or Gold: The Price of Monetary Trust**
+Safe-haven demand and the price of monetary trust.
+`working paper · 2026`
 
 </td>
 <td width="50%" valign="top">
 
-**[Bayesian inference for share-price dynamics](https://ideas.repec.org/a/ebl/ecbull/eb-21-00799.html)**
-A Bayesian treatment of the theory of share-price dynamics.
-`Economics Bulletin · 2023`
+**One Growth May Hide Another**
+Financing source, asset growth and stock returns across twenty-four markets.
+`working paper · 2026`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**End-to-End Market Making**
-Self-hosted, high-availability quoting suite — calibration, execution and
-real-time monitoring on the Qatar Stock Exchange.
-`Python · Redis · Kafka · Docker`
+**The Policy Supply of Low Volatility**
+Volatility suppression and release in foreign-exchange and sovereign-bond markets.
+`working paper · 2026`
 
 </td>
 <td width="50%" valign="top">
 
-**ShariahSentinel**
-AI scoring of GCC, Malaysian and Indonesian listed firms — quantitative
-anomaly detection plus qualitative LLM screening at scale.
-`Python · FastAPI · Kafka · RAG-LLM`
+**No News before the News**
+Information flow and price behaviour ahead of announcements.
+`working paper · 2026`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**From Microprice to Microdiffusion**
+Heavy-tailed price diffusion in limit-order books.
+`working paper · 2026`
+
+</td>
+<td width="50%" valign="top">
+
+**The fragility ratio Λ**
+When order-book imbalance fails as a signal.
+`working paper · 2026`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Migrating Blind**
+How China's Gaokao reform stopped family arbitrage.
+`working paper · 2026`
+
+</td>
+<td width="50%" valign="top">
+
+**Below the Line**
+Detecting accounting anomalies in Shariah-compliant equities.
+`working paper · 2026`
 
 </td>
 </tr>
@@ -155,9 +166,8 @@ anomaly detection plus qualitative LLM screening at scale.
 
 <!--
   ── OPTIONAL BLOCK ─────────────────────────────────────────────────
-  These widgets expose your PUBLIC contribution volume. If most of
-  your work lives in private repos, delete everything down to the next
-  divider — an empty graph undersells you far more than its absence.
+  Public contribution widgets. Delete this whole section if most of
+  your work lives in private repos.
 -->
 
 ## Activity
@@ -180,7 +190,3 @@ anomaly detection plus qualitative LLM screening at scale.
 </p>
 
 <!-- ── END OPTIONAL BLOCK ──────────────────────────────────────────── -->
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="" />
-</p>

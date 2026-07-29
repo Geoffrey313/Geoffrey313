@@ -8,7 +8,18 @@
 
 # Papers
 
-Author name in publications: **Ducournau, G.**
+## Working papers (2026)
+
+| Title | Theme |
+|---|---|
+| Bonds or Gold: The Price of Monetary Trust | Macro-finance · safe assets |
+| One Growth May Hide Another: Financing Source, Asset Growth, and Stock Returns in Twenty-Four Markets | Empirical asset pricing |
+| The Policy Supply of Low Volatility: Suppression and Release in Foreign Exchange and Sovereign Bond Markets | Macro-finance · volatility |
+| No News before the News | Microstructure · information flow |
+| From Microprice to Microdiffusion: Heavy-Tailed Price Diffusion in Limit Order Books | Market microstructure |
+| The Fragility Ratio Λ: When Order-Book Imbalance Fails | Market microstructure |
+| Migrating Blind: How China's Gaokao Reform Stopped Family Arbitrage | Structural / causal |
+| Below the Line: Detecting Accounting Anomalies in Shariah-Compliant Equities | Anomaly detection |
 
 ## Published
 
@@ -16,18 +27,6 @@ Author name in publications: **Ducournau, G.**
 |---|---|:---:|---|
 | The impact of short selling disclosure regulatory constraints on the lending market and stock ownership | Journal of Modern Accounting and Auditing | 2024 | [read](https://www.davidpublisher.com/index.php/Home/Article/index?id=51093.html) |
 | Bayesian statistical inference applied to the theory of share price dynamics | Economics Bulletin | 2023 | [read](https://ideas.repec.org/a/ebl/ecbull/eb-21-00799.html) |
-
-## Working papers
-
-| Title | Year |
-|---|:---:|
-| Driving Corporate Competitiveness through Environmental Innovation: The Moderating Role of Corporate Governance in Global Firms | 2025 |
-| Does Corporate Governance Code Matter? | 2025 |
-| Does Market Transparency Keep the Bear Asleep? Implications of Short Selling Disclosure on the Lending Market and Corporate Behaviors | 2024 |
-| Assessing the Feasibility of a Nuclear-Free Green Energy Transition in Europe | 2023 |
-| Assessing the Financial Implications of Nuclear Phase-out Policy: Evidence from European Firms | 2023 |
-| The Impact of Legalizing Recreational Tetrahydrocannabinol on Labor Cognition, Firm Performance, and Innovation: Evidence from North America | 2022 |
-| The Social and Business Impacts of DRUGS: Drug-consumption Rooms Under Government Supervision | 2022 |
 
 ## Preprints (arXiv)
 
@@ -37,6 +36,5 @@ Author name in publications: **Ducournau, G.**
 | Symbol Dynamics, Information Theory and Complexity of Economic time series | [2105.04131](https://arxiv.org/abs/2105.04131) | 2021 |
 | Statistical mechanics and Bayesian Inference addressed to the Osborne Paradox | [2103.00788](https://arxiv.org/abs/2103.00788) | 2021 |
 | Stock market's physical properties description based on Stokes' Law | [2103.00721](https://arxiv.org/abs/2103.00721) | 2021 |
-| Modeling the dynamism of the mean equation of returns of the Vasicek equation through the first-order Ikeda time-delay dynamic system | WP-MRE 2020.78 | 2020 |
 
-<!-- Add a CITATION.cff to each research repo so GitHub renders a "Cite this repository" button. -->
+<!-- Links/DOIs can be added to the 2026 working papers as they go public. -->
