@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 150" width="480" height="150"
+     role="img" aria-label="Research">
+  <defs>
+    <linearGradient id="bgr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#101C30"/>
+    </linearGradient>
+    <pattern id="dotsr" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#1B2432"/>
+    </pattern>
+    <filter id="glowr" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clipr"><rect width="480" height="150" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clipr)">
+    <rect width="480" height="150" fill="url(#bgr)"/>
+    <rect width="480" height="150" fill="url(#dotsr)"/>
+    <rect x="0" y="0" width="4" height="150" fill="#58A6FF"/>
+
+    <g opacity="0.4" filter="url(#glowr)">
+      <rect x="300" y="58" width="8" height="52" fill="#7EE787" rx="1"><animate attributeName="height" values="52;29;52" dur="2.40s" repeatCount="indefinite"/><animate attributeName="y" values="58;81;58" dur="2.40s" repeatCount="indefinite"/></rect><rect x="313" y="76" width="8" height="34" fill="#7EE787" rx="1"><animate attributeName="height" values="34;19;34" dur="2.57s" repeatCount="indefinite"/><animate attributeName="y" values="76;91;76" dur="2.57s" repeatCount="indefinite"/></rect><rect x="326" y="49" width="8" height="61" fill="#58A6FF" rx="1"><animate attributeName="height" values="61;34;61" dur="2.74s" repeatCount="indefinite"/><animate attributeName="y" values="49;76;49" dur="2.74s" repeatCount="indefinite"/></rect><rect x="339" y="82" width="8" height="28" fill="#58A6FF" rx="1"><animate attributeName="height" values="28;15;28" dur="2.91s" repeatCount="indefinite"/><animate attributeName="y" values="82;95;82" dur="2.91s" repeatCount="indefinite"/></rect><rect x="352" y="64" width="8" height="46" fill="#1F6FEB" rx="1"><animate attributeName="height" values="46;25;46" dur="3.08s" repeatCount="indefinite"/><animate attributeName="y" values="64;85;64" dur="3.08s" repeatCount="indefinite"/></rect><rect x="365" y="40" width="8" height="70" fill="#1F6FEB" rx="1"><animate attributeName="height" values="70;38;70" dur="3.25s" repeatCount="indefinite"/><animate attributeName="y" values="40;72;40" dur="3.25s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+      <text x="30" y="44" fill="#58A6FF" font-size="11" font-weight="600" letter-spacing="2.6"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">01 / RESEARCH</text>
+      <text x="30" y="78" fill="#E6EDF3" font-size="24" font-weight="650">Research</text>
+      <text x="30" y="104" fill="#8B949E" font-size="13">Microstructure, asset pricing, Islamic finance.</text>
+      <text x="30" y="123" fill="#6E7681" font-size="12.5"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">pre-registered · falsifiable · reproducible</text>
+    </g>
+
+    <g transform="translate(444, 75)">
+      <path d="M-5 -7 L4 0 L-5 7" fill="none" stroke="#58A6FF" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 4 0; 0 0" dur="1.9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <rect width="480" height="150" rx="12" fill="none" stroke="#1F2A3A" stroke-width="1.5"/>
+  </g>
+</svg>

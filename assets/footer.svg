@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120"
+     role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0B1220"/>
+      <stop offset="50%"  stop-color="#0F1626"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="fstroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7EE787" stop-opacity="0.15"/>
+      <stop offset="50%"  stop-color="#58A6FF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="farea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#1F6FEB" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0.22"/>
+    </linearGradient>
+    <pattern id="fgrid" width="50" height="30" patternUnits="userSpaceOnUse">
+      <path d="M50 0 L0 0 L0 30" fill="none" stroke="#1A2333" stroke-width="1"/>
+    </pattern>
+    <filter id="fglow" x="-25%" y="-100%" width="150%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frounded"><rect width="1000" height="120" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frounded)">
+    <rect width="1000" height="120" fill="url(#fbg)"/>
+    <rect width="1000" height="120" fill="url(#fgrid)" opacity="0.6"/>
+
+    <path fill="url(#farea)"
+          d="M0 34 C 140 62, 200 18, 330 44 S 520 84, 660 52 S 860 20, 1000 46 L1000 120 L0 120 Z"/>
+    <path fill="none" stroke="url(#fstroke)" stroke-width="2" stroke-linecap="round"
+          filter="url(#fglow)"
+          d="M0 34 C 140 62, 200 18, 330 44 S 520 84, 660 52 S 860 20, 1000 46"/>
+
+    <circle r="3.5" fill="#7EE787" filter="url(#fglow)">
+      <animateMotion dur="9s" repeatCount="indefinite"
+                     path="M0 34 C 140 62, 200 18, 330 44 S 520 84, 660 52 S 860 20, 1000 46"/>
+    </circle>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+       text-anchor="middle">
+      <text x="500" y="92" fill="#6E7681" font-size="12.5" letter-spacing="1.4">
+        open to research collaboration · microstructure &amp; empirical asset pricing
+      </text>
+    </g>
+
+    <rect width="1000" height="120" rx="14" fill="none" stroke="#1F2A3A" stroke-width="1.5"/>
+  </g>
+</svg>

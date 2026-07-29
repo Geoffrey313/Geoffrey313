@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 150" width="480" height="150"
+     role="img" aria-label="Engineering">
+  <defs>
+    <linearGradient id="bge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0F1F1A"/>
+    </linearGradient>
+    <pattern id="dotse" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#1B2432"/>
+    </pattern>
+    <filter id="glowe" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clipe"><rect width="480" height="150" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clipe)">
+    <rect width="480" height="150" fill="url(#bge)"/>
+    <rect width="480" height="150" fill="url(#dotse)"/>
+    <rect x="0" y="0" width="4" height="150" fill="#7EE787"/>
+
+    <g opacity="0.4" filter="url(#glowe)" transform="translate(-22,0)">
+      <line x1="320" y1="45" x2="375" y2="30" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="320" y1="45" x2="375" y2="75" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="320" y1="105" x2="375" y2="75" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="320" y1="105" x2="375" y2="120" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="375" y1="30" x2="430" y2="60" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="375" y1="75" x2="430" y2="60" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="375" y1="75" x2="430" y2="100" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><line x1="375" y1="120" x2="430" y2="100" stroke="#58A6FF" stroke-width="1.2" opacity="0.7"/><circle cx="320" cy="45" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.0s" repeatCount="indefinite"/></circle><circle cx="320" cy="105" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="375" cy="30" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="375" cy="75" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.0s" repeatCount="indefinite"/></circle><circle cx="375" cy="120" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="430" cy="60" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="430" cy="100" r="4.5" fill="#0D1117" stroke="#7EE787" stroke-width="1.6"><animate attributeName="r" values="4.5;6;4.5" dur="2.0s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+      <text x="30" y="44" fill="#7EE787" font-size="11" font-weight="600" letter-spacing="2.6"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">02 / ENGINEERING</text>
+      <text x="30" y="78" fill="#E6EDF3" font-size="24" font-weight="650">Engineering</text>
+      <text x="30" y="104" fill="#8B949E" font-size="13">Production ML systems and self-hosted infra.</text>
+      <text x="30" y="123" fill="#6E7681" font-size="12.5"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">pytorch · fastapi · mlflow · azure</text>
+    </g>
+
+    <g transform="translate(444, 75)">
+      <path d="M-5 -7 L4 0 L-5 7" fill="none" stroke="#7EE787" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+        <animateTransform attributeName="transform" type="translate"
+                          values="0 0; 4 0; 0 0" dur="1.9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <rect width="480" height="150" rx="12" fill="none" stroke="#1F2A3A" stroke-width="1.5"/>
+  </g>
+</svg>
