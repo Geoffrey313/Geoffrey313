@@ -9,7 +9,8 @@
 # Research
 
 My research sits at the intersection of **complex systems** and **financial markets**, with a
-parallel line in applied machine learning. PhD in quantitative finance.
+parallel line in applied machine learning. I hold a PhD in statistical finance and a postdoc in
+finance from Tsinghua University (School of Economics and Management).
 
 ## Market microstructure
 
@@ -29,7 +30,8 @@ optimisation.
 
 ## Structural & causal research
 
-Quasi-natural experiments and event-study designs on policy and market shocks.
+Quasi-natural experiments and event-study designs on policy and market shocks, with optimal
+control theory and dynamic programming applied to policy dynamics and sequential decision-making.
 
 ## Applied machine learning
 

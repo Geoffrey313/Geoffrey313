@@ -14,7 +14,7 @@
 |---|---|
 | Bonds or Gold: The Price of Monetary Trust | Macro-finance · safe assets |
 | One Growth May Hide Another: Financing Source, Asset Growth, and Stock Returns in Twenty-Four Markets | Empirical asset pricing |
-| The Policy Supply of Low Volatility: Suppression and Release in Foreign Exchange and Sovereign Bond Markets | Macro-finance · volatility |
+| The Policy Supply of Low Volatility: Suppression and Release in Foreign Exchange and Sovereign Bond Markets | Macro-finance · volatility · structural |
 | No News before the News | Microstructure · information flow |
 | From Microprice to Microdiffusion: Heavy-Tailed Price Diffusion in Limit Order Books | Market microstructure |
 | The Fragility Ratio Λ: When Order-Book Imbalance Fails | Market microstructure |

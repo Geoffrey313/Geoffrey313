@@ -8,16 +8,18 @@
 
 # Engineering
 
-I work end-to-end as a **Lead R&D & AI Architect** — from research and algorithm design to the
-systems that run them in production. Delivered work for **hedge funds, investment banks,
-insurance companies and fintech firms**.
+I work end-to-end as a **Lead R&D & AI Architect**, covering the full path from research and
+algorithm design to the systems that run them in production. I have delivered work for **hedge
+funds, investment banks, insurance companies and fintech firms**.
 
 ## What I cover
 
-- **AI research & modelling** — algorithm design, model training, evaluation and calibration.
-- **System & infrastructure design** — architecture across cloud and on-premise deployments.
-- **Automation & orchestration** — pipelines, scheduling and workflow automation.
-- **Production & MLOps** — serving, monitoring, experiment tracking and the full model lifecycle.
+- **AI research & modelling:** algorithm design, model training, evaluation and calibration.
+- **Market microstructure & algorithmic trading:** market making, optimal execution, inventory and liquidity models (Stoikov, GLFT).
+- **Applied AI & agentic systems:** LLM / RAG pipelines, computer vision, and AI agents.
+- **Automation & RPA:** workflow automation, digitalization and robotic process automation.
+- **System & infrastructure design:** architecture across cloud and on-premise deployments.
+- **Production & MLOps:** serving, monitoring, experiment tracking and the full model lifecycle.
 
 ## Typical stack
 

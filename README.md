@@ -25,7 +25,8 @@
 
 ## About
 
-Quantitative researcher and AI architect (PhD in quantitative finance). My research sits at the
+Quantitative researcher and AI architect. I hold a PhD in statistical finance and a postdoc in
+finance from Tsinghua University (School of Economics and Management). My research sits at the
 intersection of **complex systems** and **financial markets** — market microstructure and optimal
 execution, empirical asset pricing, macro-finance, portfolio allocation, and structural / causal
 work across markets. In parallel I pursue applied machine-learning research: **computer vision**,
@@ -53,6 +54,7 @@ across cloud and on-premise — including the full MLOps lifecycle. I have deliv
 </p>
 <p align="center">
   <a href="./docs/PAPERS.md"><img src="./assets/card-papers.svg" width="49%" alt="Papers" /></a>
+  <a href="./docs/PROJECTS.md"><img src="./assets/card-projects.svg" width="49%" alt="Projects" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
