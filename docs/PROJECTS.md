@@ -8,17 +8,20 @@
 
 # Projects
 
-Selected work, grouped by sector. Client names are withheld. Each project carries a deployment
-tag (![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+Selected work, grouped by sector. Client names are withheld. Each section below is collapsible,
+click a sector to expand it. Every project carries a deployment tag
+(![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 ![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4))
 and is described as Problem, Solution, Architecture and Contribution.
 
 <img src="../assets/divider.svg" width="100%" alt="" />
 
-## Securities
+<details>
+<summary><b>Securities</b> &nbsp;·&nbsp; market-making platform</summary>
 
-### Market-making platform
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+<br/>
+
+#### Market-making platform &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
 Automated market making / designated liquidity provision on an emerging equity exchange.
 
@@ -29,12 +32,14 @@ Automated market making / designated liquidity provision on an emerging equity e
 
 `Python · FastAPI · Optuna · MLflow · Redis · PostgreSQL · MinIO · Vault · React · Docker`
 
-<img src="../assets/divider.svg" width="100%" alt="" />
+</details>
 
-## Asset Management
+<details>
+<summary><b>Asset Management</b> &nbsp;·&nbsp; portfolio intelligence & agentic-AI assistant</summary>
 
-### Portfolio intelligence & agentic-AI assistant
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+<br/>
+
+#### Portfolio intelligence & agentic-AI assistant &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
 Decision-support platform for discretionary equity portfolio managers moving off spreadsheets.
 
@@ -45,12 +50,14 @@ Decision-support platform for discretionary equity portfolio managers moving off
 
 `Python · FastAPI · SciPy · pandas · agentic LLM · React · TypeScript · Recharts · Docker`
 
-<img src="../assets/divider.svg" width="100%" alt="" />
+</details>
 
-## Investment Banking
+<details>
+<summary><b>Investment Banking</b> &nbsp;·&nbsp; treasury automation, Shariah screening, agentic advisory</summary>
 
-### Treasury middle-office automation
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+<br/>
+
+#### Treasury middle-office automation &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
 On-premise RAG assistant for a bank's treasury / middle-office risk function.
 
@@ -61,8 +68,9 @@ On-premise RAG assistant for a bank's treasury / middle-office risk function.
 
 `Python · on-prem LLMs · RAG · FastAPI · API integration`
 
-### Shariah-compliance screening
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+<br/>
+
+#### Shariah-compliance screening &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
 Screening and monitoring of publicly listed equities for equity research.
 
@@ -73,8 +81,9 @@ Screening and monitoring of publicly listed equities for equity research.
 
 `Python · scikit-learn · Transformers · litellm · FastAPI · PostgreSQL · MinIO · Prefect · React`
 
-### Agentic investment-advisory platform
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+<br/>
+
+#### Agentic investment-advisory platform &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
 Platform for a Sharia-compliant investment, advisory and research firm (portfolio management, buy-side M&A, compliance).
 
@@ -85,12 +94,14 @@ Platform for a Sharia-compliant investment, advisory and research firm (portfoli
 
 `Agentic RAG · LLM / SLM · OCR · NLP · MLflow · Monte Carlo · HRP · forensic analytics`
 
-<img src="../assets/divider.svg" width="100%" alt="" />
+</details>
 
-## Insurance
+<details>
+<summary><b>Insurance</b> &nbsp;·&nbsp; drought-damage assessment, motor-claims automation</summary>
 
-### Drought-damage claims assessment
-![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
+<br/>
+
+#### Drought-damage claims assessment &nbsp; ![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
 
 Regulated drought-subsidence building-damage claims, computer vision plus vision-LLM.
 
@@ -101,8 +112,9 @@ Regulated drought-subsidence building-damage claims, computer vision plus vision
 
 `Python · SAM3 · PyTorch · Azure OpenAI · FastAPI · MLflow · Vault · MinIO · Azure Container Apps`
 
-### Motor-claims automation & fraud detection
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
+<br/>
+
+#### Motor-claims automation & fraud detection &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624)
 
 Motor (and broader) claims automation for a Takaful insurer.
 
@@ -113,12 +125,14 @@ Motor (and broader) claims automation for a Takaful insurer.
 
 `Computer vision · LLM report generation · OCR · anomaly detection · on-prem · RBAC / audit`
 
-<img src="../assets/divider.svg" width="100%" alt="" />
+</details>
 
-## Fintech
+<details>
+<summary><b>Fintech</b> &nbsp;·&nbsp; transaction-fraud detection</summary>
 
-### Transaction-fraud detection
-![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
+<br/>
+
+#### Transaction-fraud detection &nbsp; ![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
 
 Fraud detection for an online payments / transaction-processing operator.
 
@@ -129,12 +143,14 @@ Fraud detection for an online payments / transaction-processing operator.
 
 `PyTorch Geometric · GPU · unsupervised graph anomaly detection`
 
-<img src="../assets/divider.svg" width="100%" alt="" />
+</details>
 
-## B2B Trade & Procurement
+<details>
+<summary><b>B2B Trade & Procurement</b> &nbsp;·&nbsp; sourcing & tender-intelligence platform</summary>
 
-### Sourcing & tender-intelligence platform
-![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
+<br/>
+
+#### Sourcing & tender-intelligence platform &nbsp; ![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
 
 Procurement-intelligence platform for an international B2B sourcing / import-export intermediary, with customs HS-code-driven supplier matching and tender monitoring.
 
@@ -145,12 +161,14 @@ Procurement-intelligence platform for an international B2B sourcing / import-exp
 
 `PostgreSQL · vector search · RPA · classical ML scoring · agentic AI · RAG · managed cloud`
 
-<img src="../assets/divider.svg" width="100%" alt="" />
+</details>
 
-## Government / Strategic Communications
+<details>
+<summary><b>Government / Strategic Communications</b> &nbsp;·&nbsp; narrative-monitoring platform</summary>
 
-### Narrative-monitoring platform
-![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624) ![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
+<br/>
+
+#### Narrative-monitoring platform &nbsp; ![on-prem](https://img.shields.io/badge/on--prem-30363D?style=flat-square&logo=linux&logoColor=FCC624) ![cloud](https://img.shields.io/badge/cloud-30363D?style=flat-square&logo=microsoftazure&logoColor=2088D4)
 
 National-scale information-integrity and narrative monitoring for a public institution, multilingual.
 
@@ -160,3 +178,5 @@ National-scale information-integrity and narrative monitoring for a public insti
 - **Contribution:** designed the end-to-end architecture, the three-stage funnel, and a dual cloud / on-premise deployment.
 
 `Python · PyTorch Geometric · multilingual transformers · vLLM / Azure OpenAI · Neo4j · Kafka · Qdrant · Kubernetes`
+
+</details>
