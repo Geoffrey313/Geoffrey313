@@ -179,11 +179,6 @@ Detecting accounting anomalies in Shariah-compliant equities.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Geoffrey313"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Geoffrey313&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="stats" /></a>
-  <a href="https://github.com/Geoffrey313?tab=repositories"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Geoffrey313&layout=compact&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="top languages" /></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/Geoffrey313"><img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Geoffrey313&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=E6EDF3&area=true&hide_border=true&custom_title=Contribution%20graph" alt="activity graph" /></a>
 </p>
 
