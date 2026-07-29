@@ -27,10 +27,10 @@ Automated market making / designated liquidity provision on an emerging equity e
 
 - **Problem:** meet exchange liquidity-provider obligations (max spread, minimum size, presence time) throughout the session without accumulating unhedgeable inventory, at low latency.
 - **Solution:** a GLFT / Stoikov microprice quoting engine (tick-volatility and liquidity estimators, inventory skew, intraday regime schedules, end-of-day flattening); Bayesian walk-forward calibration with Optuna, tracked in MLflow.
-- **Architecture:** a React / TypeScript operator dashboard over a FastAPI backend, with a Redis pub/sub control plane coordinating one CPU-pinned engine per symbol and an exchange-gateway connector over STOMP/TLS; a separate JWT auth API behind Nginx / Cloudflare. High availability via Redis Sentinel and Pacemaker-based engine failover. Deployed on-premise via an offline installer (Docker for app and backing stores, systemd for engines and bridges).
+- **Architecture:** a React / TypeScript operator dashboard over a FastAPI backend, with a Redis pub/sub control plane coordinating one engine per symbol and an exchange-gateway connector over STOMP/TLS, fronted by HAProxy with a JWT auth API. The whole stack runs on Docker Swarm on-premise, with high availability via HAProxy, Redis Sentinel and Patroni-managed PostgreSQL.
 - **Contribution:** built the full stack, from the calibration research system (backtester, walk-forward, experiment tracking) to the operator platform (multi-symbol engine, gateway, analytics, audit).
 
-`Python · FastAPI · Optuna · MLflow · Redis · PostgreSQL · MinIO · Vault · React · Docker`
+`Python · FastAPI · Optuna · MLflow · Redis Sentinel · PostgreSQL / Patroni · MinIO · Vault · HAProxy · Docker Swarm · React`
 
 </details>
 
