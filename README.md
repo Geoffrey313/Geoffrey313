@@ -19,6 +19,7 @@
   <a href="https://orcid.org/0000-0002-2794-4453"><img src="https://img.shields.io/badge/ORCID-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39" alt="ORCID" /></a>
   <a href="https://www.linkedin.com/in/geoffreyducournau"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
   <a href="mailto:G.ducournau.voisin@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  <a href="https://geoffrey-ducournau-profile.111dimtech.com/"><img src="https://img.shields.io/badge/Website-0D1117?style=for-the-badge&logo=googlechrome&logoColor=58A6FF" alt="Website" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
